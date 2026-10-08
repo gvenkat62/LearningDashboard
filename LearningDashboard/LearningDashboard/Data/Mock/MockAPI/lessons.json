@@ -1,0 +1,401 @@
+[
+  {
+    "courseId": 1,
+    "lessons": [
+      {
+        "id": 101,
+        "title": "Introduction",
+        "order": 1,
+        "isCompleted": true
+      },
+      {
+        "id": 102,
+        "title": "Setting Up Your Environment",
+        "order": 2,
+        "isCompleted": true
+      },
+      {
+        "id": 103,
+        "title": "Variables & Data Types",
+        "order": 3,
+        "isCompleted": true
+      },
+      {
+        "id": 104,
+        "title": "Operators & Expressions",
+        "order": 4,
+        "isCompleted": true
+      },
+      {
+        "id": 105,
+        "title": "Control Flow",
+        "order": 5,
+        "isCompleted": true
+      },
+      {
+        "id": 106,
+        "title": "Loops",
+        "order": 6,
+        "isCompleted": true
+      },
+      {
+        "id": 107,
+        "title": "Functions",
+        "order": 7,
+        "isCompleted": true
+      },
+      {
+        "id": 108,
+        "title": "Modules & Packages",
+        "order": 8,
+        "isCompleted": true
+      },
+      {
+        "id": 109,
+        "title": "Lists & Tuples",
+        "order": 9,
+        "isCompleted": true
+      },
+      {
+        "id": 110,
+        "title": "Dictionaries & Sets",
+        "order": 10,
+        "isCompleted": true
+      },
+      {
+        "id": 111,
+        "title": "String Manipulation",
+        "order": 11,
+        "isCompleted": true
+      },
+      {
+        "id": 112,
+        "title": "File I/O",
+        "order": 12,
+        "isCompleted": true
+      },
+      {
+        "id": 113,
+        "title": "Error Handling",
+        "order": 13,
+        "isCompleted": true
+      },
+      {
+        "id": 114,
+        "title": "OOP",
+        "order": 14,
+        "isCompleted": false
+      },
+      {
+        "id": 115,
+        "title": "Inheritance & Polymorphism",
+        "order": 15,
+        "isCompleted": false
+      },
+      {
+        "id": 116,
+        "title": "Iterators & Generators",
+        "order": 16,
+        "isCompleted": false
+      },
+      {
+        "id": 117,
+        "title": "Decorators",
+        "order": 17,
+        "isCompleted": false
+      },
+      {
+        "id": 118,
+        "title": "Testing with pytest",
+        "order": 18,
+        "isCompleted": false
+      },
+      {
+        "id": 119,
+        "title": "Virtual Environments",
+        "order": 19,
+        "isCompleted": false
+      },
+      {
+        "id": 120,
+        "title": "Final Project",
+        "order": 20,
+        "isCompleted": false
+      }
+    ]
+  },
+  {
+    "courseId": 2,
+    "lessons": [
+      {
+        "id": 201,
+        "title": "What is Generative AI?",
+        "order": 1,
+        "isCompleted": true
+      },
+      {
+        "id": 202,
+        "title": "History of Language Models",
+        "order": 2,
+        "isCompleted": true
+      },
+      {
+        "id": 203,
+        "title": "Neural Network Fundamentals",
+        "order": 3,
+        "isCompleted": true
+      },
+      {
+        "id": 204,
+        "title": "Transformers & Attention",
+        "order": 4,
+        "isCompleted": true
+      },
+      {
+        "id": 205,
+        "title": "Tokenization & Embeddings",
+        "order": 5,
+        "isCompleted": true
+      },
+      {
+        "id": 206,
+        "title": "Prompt Engineering",
+        "order": 6,
+        "isCompleted": true
+      },
+      {
+        "id": 207,
+        "title": "Retrieval-Augmented Generation",
+        "order": 7,
+        "isCompleted": false
+      },
+      {
+        "id": 208,
+        "title": "Fine-Tuning",
+        "order": 8,
+        "isCompleted": false
+      },
+      {
+        "id": 209,
+        "title": "Evaluating Model Outputs",
+        "order": 9,
+        "isCompleted": false
+      },
+      {
+        "id": 210,
+        "title": "Image Generation & Diffusion",
+        "order": 10,
+        "isCompleted": false
+      },
+      {
+        "id": 211,
+        "title": "Building with LLM APIs",
+        "order": 11,
+        "isCompleted": false
+      },
+      {
+        "id": 212,
+        "title": "Agents & Tool Use",
+        "order": 12,
+        "isCompleted": false
+      },
+      {
+        "id": 213,
+        "title": "Safety & Alignment",
+        "order": 13,
+        "isCompleted": false
+      },
+      {
+        "id": 214,
+        "title": "Responsible AI",
+        "order": 14,
+        "isCompleted": false
+      },
+      {
+        "id": 215,
+        "title": "Deploying GenAI Apps",
+        "order": 15,
+        "isCompleted": false
+      },
+      {
+        "id": 216,
+        "title": "Capstone Project",
+        "order": 16,
+        "isCompleted": false
+      }
+    ]
+  },
+  {
+    "courseId": 3,
+    "lessons": [
+      {
+        "id": 301,
+        "title": "HTML Fundamentals",
+        "order": 1,
+        "isCompleted": true
+      },
+      {
+        "id": 302,
+        "title": "CSS Basics",
+        "order": 2,
+        "isCompleted": true
+      },
+      {
+        "id": 303,
+        "title": "Responsive Design",
+        "order": 3,
+        "isCompleted": true
+      },
+      {
+        "id": 304,
+        "title": "JavaScript Essentials",
+        "order": 4,
+        "isCompleted": true
+      },
+      {
+        "id": 305,
+        "title": "DOM Manipulation",
+        "order": 5,
+        "isCompleted": true
+      },
+      {
+        "id": 306,
+        "title": "Async JavaScript",
+        "order": 6,
+        "isCompleted": true
+      },
+      {
+        "id": 307,
+        "title": "Git & GitHub",
+        "order": 7,
+        "isCompleted": true
+      },
+      {
+        "id": 308,
+        "title": "TypeScript Basics",
+        "order": 8,
+        "isCompleted": false
+      },
+      {
+        "id": 309,
+        "title": "React Fundamentals",
+        "order": 9,
+        "isCompleted": false
+      },
+      {
+        "id": 310,
+        "title": "React State & Hooks",
+        "order": 10,
+        "isCompleted": false
+      },
+      {
+        "id": 311,
+        "title": "Routing",
+        "order": 11,
+        "isCompleted": false
+      },
+      {
+        "id": 312,
+        "title": "Forms & Validation",
+        "order": 12,
+        "isCompleted": false
+      },
+      {
+        "id": 313,
+        "title": "Node.js Basics",
+        "order": 13,
+        "isCompleted": false
+      },
+      {
+        "id": 314,
+        "title": "Express APIs",
+        "order": 14,
+        "isCompleted": false
+      },
+      {
+        "id": 315,
+        "title": "REST API Design",
+        "order": 15,
+        "isCompleted": false
+      },
+      {
+        "id": 316,
+        "title": "Databases & SQL",
+        "order": 16,
+        "isCompleted": false
+      },
+      {
+        "id": 317,
+        "title": "ORMs",
+        "order": 17,
+        "isCompleted": false
+      },
+      {
+        "id": 318,
+        "title": "Authentication",
+        "order": 18,
+        "isCompleted": false
+      },
+      {
+        "id": 319,
+        "title": "Authorization & Security",
+        "order": 19,
+        "isCompleted": false
+      },
+      {
+        "id": 320,
+        "title": "Testing the Frontend",
+        "order": 20,
+        "isCompleted": false
+      },
+      {
+        "id": 321,
+        "title": "Testing the Backend",
+        "order": 21,
+        "isCompleted": false
+      },
+      {
+        "id": 322,
+        "title": "State Management at Scale",
+        "order": 22,
+        "isCompleted": false
+      },
+      {
+        "id": 323,
+        "title": "Performance Optimization",
+        "order": 23,
+        "isCompleted": false
+      },
+      {
+        "id": 324,
+        "title": "Docker Basics",
+        "order": 24,
+        "isCompleted": false
+      },
+      {
+        "id": 325,
+        "title": "CI/CD Pipelines",
+        "order": 25,
+        "isCompleted": false
+      },
+      {
+        "id": 326,
+        "title": "Cloud Deployment",
+        "order": 26,
+        "isCompleted": false
+      },
+      {
+        "id": 327,
+        "title": "Monitoring & Logging",
+        "order": 27,
+        "isCompleted": false
+      },
+      {
+        "id": 328,
+        "title": "Capstone Project",
+        "order": 28,
+        "isCompleted": false
+      }
+    ]
+  }
+]
