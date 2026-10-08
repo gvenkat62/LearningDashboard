@@ -1,0 +1,546 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 110;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		8211DFC4307762120067A5CD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8211DFAC307762110067A5CD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8211DFB3307762110067A5CD;
+			remoteInfo = LearningDashboard;
+		};
+		8211DFCE307762120067A5CD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8211DFAC307762110067A5CD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8211DFB3307762110067A5CD;
+			remoteInfo = LearningDashboard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8211DFB4307762110067A5CD /* LearningDashboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LearningDashboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8211DFC3307762120067A5CD /* LearningDashboardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LearningDashboardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8211DFCD307762120067A5CD /* LearningDashboardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LearningDashboardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		8211DFB6307762110067A5CD /* LearningDashboard */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = LearningDashboard;
+			sourceTree = "<group>";
+		};
+		8211DFC6307762120067A5CD /* LearningDashboardTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = LearningDashboardTests;
+			sourceTree = "<group>";
+		};
+		8211DFD0307762120067A5CD /* LearningDashboardUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = LearningDashboardUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8211DFB1307762110067A5CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
+		8211DFC0307762120067A5CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
+		8211DFCA307762120067A5CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8211DFAB307762110067A5CD = {
+			isa = PBXGroup;
+			children = (
+				8211DFB6307762110067A5CD /* LearningDashboard */,
+				8211DFC6307762120067A5CD /* LearningDashboardTests */,
+				8211DFD0307762120067A5CD /* LearningDashboardUITests */,
+				8211DFB5307762110067A5CD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8211DFB5307762110067A5CD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8211DFB4307762110067A5CD /* LearningDashboard.app */,
+				8211DFC3307762120067A5CD /* LearningDashboardTests.xctest */,
+				8211DFCD307762120067A5CD /* LearningDashboardUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8211DFB3307762110067A5CD /* LearningDashboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8211DFD5307762120067A5CD /* Build configuration list for PBXNativeTarget "LearningDashboard" */;
+			buildPhases = (
+				8211DFB0307762110067A5CD /* Sources */,
+				8211DFB1307762110067A5CD /* Frameworks */,
+				8211DFB2307762110067A5CD /* Resources */,
+			);
+			buildRules = (
+			);
+			fileSystemSynchronizedGroups = (
+				8211DFB6307762110067A5CD /* LearningDashboard */,
+			);
+			name = LearningDashboard;
+			productName = LearningDashboard;
+			productReference = 8211DFB4307762110067A5CD /* LearningDashboard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8211DFC2307762120067A5CD /* LearningDashboardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8211DFD8307762120067A5CD /* Build configuration list for PBXNativeTarget "LearningDashboardTests" */;
+			buildPhases = (
+				8211DFBF307762120067A5CD /* Sources */,
+				8211DFC0307762120067A5CD /* Frameworks */,
+				8211DFC1307762120067A5CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8211DFC5307762120067A5CD /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				8211DFC6307762120067A5CD /* LearningDashboardTests */,
+			);
+			name = LearningDashboardTests;
+			productName = LearningDashboardTests;
+			productReference = 8211DFC3307762120067A5CD /* LearningDashboardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8211DFCC307762120067A5CD /* LearningDashboardUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8211DFDB307762120067A5CD /* Build configuration list for PBXNativeTarget "LearningDashboardUITests" */;
+			buildPhases = (
+				8211DFC9307762120067A5CD /* Sources */,
+				8211DFCA307762120067A5CD /* Frameworks */,
+				8211DFCB307762120067A5CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8211DFCF307762120067A5CD /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				8211DFD0307762120067A5CD /* LearningDashboardUITests */,
+			);
+			name = LearningDashboardUITests;
+			productName = LearningDashboardUITests;
+			productReference = 8211DFCD307762120067A5CD /* LearningDashboardUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8211DFAC307762110067A5CD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2700;
+				LastUpgradeCheck = 2700;
+				TargetAttributes = {
+					8211DFB3307762110067A5CD = {
+						CreatedOnToolsVersion = 27.0;
+					};
+					8211DFC2307762120067A5CD = {
+						CreatedOnToolsVersion = 27.0;
+						TestTargetID = 8211DFB3307762110067A5CD;
+					};
+					8211DFCC307762120067A5CD = {
+						CreatedOnToolsVersion = 27.0;
+						TestTargetID = 8211DFB3307762110067A5CD;
+					};
+				};
+			};
+			buildConfigurationList = 8211DFAF307762110067A5CD /* Build configuration list for PBXProject "LearningDashboard" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8211DFAB307762110067A5CD;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 8211DFB5307762110067A5CD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8211DFB3307762110067A5CD /* LearningDashboard */,
+				8211DFC2307762120067A5CD /* LearningDashboardTests */,
+				8211DFCC307762120067A5CD /* LearningDashboardUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8211DFB2307762110067A5CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+			);
+		};
+		8211DFC1307762120067A5CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+			);
+		};
+		8211DFCB307762120067A5CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+			);
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8211DFB0307762110067A5CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+			);
+		};
+		8211DFBF307762120067A5CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+			);
+		};
+		8211DFC9307762120067A5CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+			);
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8211DFC5307762120067A5CD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8211DFB3307762110067A5CD /* LearningDashboard */;
+			targetProxy = 8211DFC4307762120067A5CD /* PBXContainerItemProxy */;
+		};
+		8211DFCF307762120067A5CD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8211DFB3307762110067A5CD /* LearningDashboard */;
+			targetProxy = 8211DFCE307762120067A5CD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		8211DFD3307762120067A5CD /* Debug configuration for PBXProject "LearningDashboard" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8211DFD4307762120067A5CD /* Release configuration for PBXProject "LearningDashboard" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8211DFD6307762120067A5CD /* Debug configuration for PBXNativeTarget "LearningDashboard" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Venkat.LearningDashboard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8211DFD7307762120067A5CD /* Release configuration for PBXNativeTarget "LearningDashboard" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Venkat.LearningDashboard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8211DFD9307762120067A5CD /* Debug configuration for PBXNativeTarget "LearningDashboardTests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Venkat.LearningDashboardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LearningDashboard.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LearningDashboard";
+			};
+			name = Debug;
+		};
+		8211DFDA307762120067A5CD /* Release configuration for PBXNativeTarget "LearningDashboardTests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Venkat.LearningDashboardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LearningDashboard.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LearningDashboard";
+			};
+			name = Release;
+		};
+		8211DFDC307762120067A5CD /* Debug configuration for PBXNativeTarget "LearningDashboardUITests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Venkat.LearningDashboardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LearningDashboard;
+			};
+			name = Debug;
+		};
+		8211DFDD307762120067A5CD /* Release configuration for PBXNativeTarget "LearningDashboardUITests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Venkat.LearningDashboardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LearningDashboard;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8211DFAF307762110067A5CD /* Build configuration list for PBXProject "LearningDashboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8211DFD3307762120067A5CD /* Debug configuration for PBXProject "LearningDashboard" */,
+				8211DFD4307762120067A5CD /* Release configuration for PBXProject "LearningDashboard" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		8211DFD5307762120067A5CD /* Build configuration list for PBXNativeTarget "LearningDashboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8211DFD6307762120067A5CD /* Debug configuration for PBXNativeTarget "LearningDashboard" */,
+				8211DFD7307762120067A5CD /* Release configuration for PBXNativeTarget "LearningDashboard" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		8211DFD8307762120067A5CD /* Build configuration list for PBXNativeTarget "LearningDashboardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8211DFD9307762120067A5CD /* Debug configuration for PBXNativeTarget "LearningDashboardTests" */,
+				8211DFDA307762120067A5CD /* Release configuration for PBXNativeTarget "LearningDashboardTests" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		8211DFDB307762120067A5CD /* Build configuration list for PBXNativeTarget "LearningDashboardUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8211DFDC307762120067A5CD /* Debug configuration for PBXNativeTarget "LearningDashboardUITests" */,
+				8211DFDD307762120067A5CD /* Release configuration for PBXNativeTarget "LearningDashboardUITests" */,
+			);
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8211DFAC307762110067A5CD /* Project object */;
+	validationLevel = 1;
+}
